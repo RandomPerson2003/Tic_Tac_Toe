@@ -1,7 +1,16 @@
-void setup() {}
+void setup() {
+size (500,600);
+textSetup();
+quitButtonSetup();
+GUI_Setup();
+}
 
-void draw() {}
+void draw() {
+quitButtonDraw();
+}
 
 void keyPressed() {}
 
-void mousePressed() {}
+void mousePressed() {
+quitButtonMouseClicked();
+}
