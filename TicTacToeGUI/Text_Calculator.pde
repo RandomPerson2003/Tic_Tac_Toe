@@ -1,19 +1,22 @@
+
 PFont titleFont;
-//String[] fontList = PFont.list(); //To list all fonts available on system
-float titleWidth, titleHeight;
-String title, quit;
-float currentTempEdm, currentTempCalgary, currentTempRD;
-String nameEdm, nameCalg, nameRD;
+String title, quit, mode1, mode2, mode3, restart;
+float  titleWidth, titleHeight;
+
 
 void textSetup() {
-  titleFont = createFont ("Harrington", height); // //Must also Tools / Create Font / Find Font / Do Not Press "OK"
-  title = "Mercer's Kitchen Fastantic Weather App";
-  titleWidth = width * 1/2;
-  titleHeight = height * 1/10;
+  titleFont = createFont ("Helvetica", height);
+  title = "Weather Thing";
+  titleWidth = width*1/2;
+  titleHeight = height*1/10;
   quit = "X";
+  mode1 = "Beginner";
+  mode2 = "Intermediate";
+  mode3 = "Impossible";
+  restart = "Restart";
 }
 
-void textDraw(String string, PFont font, float height, color ink, int alignHorizontal, int alignVertical, float rectX, float rectY, float rectWidth, float rectHeight) {
+void textDraw(String string, PFont font, float height,color ink, int alignHorizontal, int alignVertical, float rectX, float rectY, float rectWidth, float rectHeight) {
   float fontSize = height;
   fill(ink);
   textAlign (alignHorizontal, alignVertical);
@@ -28,10 +31,11 @@ void textDraw(String string, PFont font, float height, color ink, int alignHoriz
   fill(255);
 }
 
+
 float textCalculator(float size, String string, float rectWidth) {
   textSize(size);
   while ( textWidth(string) > rectWidth ) {
-    size = size * 0.99;
+    size = size*0.99;
     textSize(size);
   }
   return size;

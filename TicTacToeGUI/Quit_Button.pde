@@ -1,7 +1,7 @@
 
 PFont quitButtonFont;
 color black = 0;
-color blackQuitButton = #FFDBFB;
+color blackQuitButton = #E6E3E3;
 color redQuitButton = #F02A21;
 
 void quitButtonRect() {
