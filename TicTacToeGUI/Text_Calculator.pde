@@ -1,14 +1,10 @@
 
-PFont titleFont;
+PFont Font;
 String title, quit, mode1, mode2, mode3, restart;
-float  titleWidth, titleHeight;
 
 
 void textSetup() {
-  titleFont = createFont ("Helvetica", height);
-  title = "Weather Thing";
-  titleWidth = width*1/2;
-  titleHeight = height*1/10;
+  Font = createFont ("Helvetica", height);
   quit = "X";
   mode1 = "Beginner";
   mode2 = "Intermediate";

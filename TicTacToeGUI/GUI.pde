@@ -19,7 +19,9 @@ float board8X, board8Y, board8Width,board8Height;
 float board9X, board9Y, board9Width,board9Height;
 
 void GUI_Setup() {
-  
+  background(#F3DD70);
+
+
   board1X = width*1/5;
   board1Y = height*1/5;
   board1Width = width * 1/5;
@@ -106,15 +108,6 @@ void GUI_Setup() {
   mode3Width = width*1/5;
   mode3Height = height * 1/16;
 
-  rect(restartX,restartY,restartWidth,restartHeight);
-  rect(score1X,score1Y,score1Width,score1Height);
-  rect(score2X,score2Y,score2Width,score2Height);
-  rect(mode1X,mode1Y,mode1Width,mode1Height);
-  rect(mode2X,mode2Y,mode2Width,mode2Height);
-  rect(mode3X,mode3Y,mode3Width,mode3Height);
-  rect(XX,XY,XWidth,XHeight);
-  rect(OX,OY,OWidth,OHeight);
-
   rect(board1X,board1Y,board1Width,board1Height);
   rect(board2X,board2Y,board2Width,board2Height);
   rect(board3X,board3Y,board3Width,board3Height);
@@ -124,5 +117,18 @@ void GUI_Setup() {
   rect(board7X,board7Y,board7Width,board7Height);
   rect(board8X,board8Y,board8Width,board8Height);
   rect(board9X,board9Y,board9Width,board9Height);
+
+    fill(#E6E3E3);
+    
+  rect(restartX,restartY,restartWidth,restartHeight);
+  rect(score1X,score1Y,score1Width,score1Height);
+  rect(score2X,score2Y,score2Width,score2Height);
+  rect(mode1X,mode1Y,mode1Width,mode1Height);
+  rect(mode2X,mode2Y,mode2Width,mode2Height);
+  rect(mode3X,mode3Y,mode3Width,mode3Height);
+  rect(XX,XY,XWidth,XHeight);
+  rect(OX,OY,OWidth,OHeight);
+
+
   
 }
