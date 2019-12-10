@@ -8,6 +8,8 @@ textDraw(mode1, Font, height, 0, CENTER, CENTER, mode1X, mode1Y, mode1Width, mod
 textDraw(mode2, Font, height, 0, CENTER, CENTER, mode2X, mode2Y, mode2Width, mode2Height);
 textDraw(mode3, Font, height, 0, CENTER, CENTER, mode3X, mode3Y, mode3Width, mode3Height);
 textDraw(restart, Font, height, 0, CENTER, CENTER, restartX, restartY, restartWidth, restartHeight);
+textDraw(X, Font, height, 0, CENTER, CENTER, XX, XY, XWidth, XHeight);
+textDraw(O, Font, height, 0, CENTER, CENTER, OX, OY, OWidth, OHeight);
 
 
 }
@@ -42,6 +44,16 @@ quitButtonDraw();
   fill (#E6E3E3);
   rect(mode3X, mode3Y, mode3Width, mode3Height);
   textDraw(mode3, Font, height, 0, CENTER, CENTER, mode3X, mode3Y, mode3Width, mode3Height);
+}
+
+  if (mouseX>restartX && mouseX<restartX+restartWidth && mouseY>restartY && mouseY<restartY+restartHeight){
+    fill(255);
+    rect(restartX, restartY, restartWidth, restartHeight);
+    textDraw(restart, Font, height, 0, CENTER, CENTER, restartX, restartY, restartWidth, restartHeight);
+} else {
+  fill (#E6E3E3);
+  rect(restartX, restartY, restartWidth, restartHeight);
+  textDraw(restart, Font, height, 0, CENTER, CENTER, restartX, restartY, restartWidth, restartHeight);
 }
 
 }

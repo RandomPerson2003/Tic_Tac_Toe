@@ -1,6 +1,6 @@
 
 PFont Font;
-String title, quit, mode1, mode2, mode3, restart;
+String quit, mode1, mode2, mode3, restart, X, O;
 
 
 void textSetup() {
@@ -9,7 +9,9 @@ void textSetup() {
   mode1 = "Beginner";
   mode2 = "Intermediate";
   mode3 = "Impossible";
-  restart = "Restart";
+  restart = " Restart Game ";
+  X = "X";
+  O = "O";
 }
 
 void textDraw(String string, PFont font, float height,color ink, int alignHorizontal, int alignVertical, float rectX, float rectY, float rectWidth, float rectHeight) {

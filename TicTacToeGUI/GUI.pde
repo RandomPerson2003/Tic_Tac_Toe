@@ -73,25 +73,25 @@ void GUI_Setup() {
   restartWidth = width * 1/3;
   restartHeight = height * 1/16;
   
-  score1X = width*0;
-  score1Y = height*90/100;
-  score1Width = width*1/8;
-  score1Height = height * 15/100;
-  
-  XX = width*1/8;
-  XY = height*90/100;
+  XX = width*0;
+  XY = height*9/10;
   XWidth = width*1/8;
-  XHeight = height * 15/100;
+  XHeight = height * 1/10;
   
-  score2X = width*7/8;
-  score2Y = height*90/100;
-  score2Width = width*1/8;
-  score2Height = height * 15/100;
+  score1X = width*1/8;
+  score1Y = height*9/10;
+  score1Width = width*1/8;
+  score1Height = height * 1/10;
   
-  OX = width*6/8;
-  OY = height*90/100;
+  OX = width*7/8;
+  OY = height*9/10;
   OWidth = width*1/8;
-  OHeight = height * 15/100;
+  OHeight = height * 1/10;
+  
+  score2X = width*6/8;
+  score2Y = height*9/10;
+  score2Width = width*1/8;
+  score2Height = height * 1/10;
   
   mode1X = width*0;
   mode1Y = height*0;
