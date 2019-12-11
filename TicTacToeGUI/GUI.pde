@@ -7,6 +7,7 @@ float OX,OY,OWidth,OHeight;
 float mode1X,mode1Y,mode1Width,mode1Height;
 float mode2X,mode2Y,mode2Width,mode2Height;
 float mode3X,mode3Y,mode3Width,mode3Height;
+float darkX, darkY, darkWidth,darkHeight;
 
 float board1X, board1Y, board1Width,board1Height;
 float board2X, board2Y, board2Width,board2Height;
@@ -107,6 +108,11 @@ void GUI_Setup() {
   mode3Y = height*12/100;
   mode3Width = width*1/5;
   mode3Height = height * 1/16;
+  
+  darkX = width*1/3;
+  darkY = height*15/16;
+  darkWidth = width*1/3;
+  darkHeight = height*1/16;
 
   rect(board1X,board1Y,board1Width,board1Height);
   rect(board2X,board2Y,board2Width,board2Height);
@@ -128,6 +134,7 @@ void GUI_Setup() {
   rect(mode3X,mode3Y,mode3Width,mode3Height);
   rect(XX,XY,XWidth,XHeight);
   rect(OX,OY,OWidth,OHeight);
+  rect(darkX,darkY,darkWidth,darkHeight);
 
 
   
