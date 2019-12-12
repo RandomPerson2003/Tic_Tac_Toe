@@ -20,8 +20,7 @@ float board8X, board8Y, board8Width,board8Height;
 float board9X, board9Y, board9Width,board9Height;
 
 void GUI_Setup() {
-  background(#F3DD70);
-
+  background(LMback);
 
   board1X = width*1/5;
   board1Y = height*1/5;
@@ -124,7 +123,7 @@ void GUI_Setup() {
   rect(board8X,board8Y,board8Width,board8Height);
   rect(board9X,board9Y,board9Width,board9Height);
 
-    fill(#E6E3E3);
+    fill(LMbuttons);
     
   rect(restartX,restartY,restartWidth,restartHeight);
   rect(score1X,score1Y,score1Width,score1Height);

@@ -28,6 +28,8 @@ void twoPlayerGame() {
 }
 
 void play2player() {
+  println("2 player");
+  drawXO();
  
   
   
