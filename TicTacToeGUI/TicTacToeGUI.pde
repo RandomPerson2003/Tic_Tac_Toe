@@ -18,20 +18,20 @@ textDraw(dark, Font, height, LMtext, CENTER, CENTER, darkX, darkY, darkWidth, da
 void draw() {
 quitButtonDraw();
 hoverOver();
-
+/*
 if ( twoPlayer2 == true){
   play2player();
 }else if (twoPlayerAI == true) {
   println("Playing Bots");
 }
-
+*/
 }
 
 void keyPressed() {}
 
 void mousePressed() {
 quitButtonMouseClicked();
-twoPlayerBoolean();
+//twoPlayerBoolean();
 darkModeClicked();
 }
 

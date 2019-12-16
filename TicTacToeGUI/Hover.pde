@@ -1,13 +1,13 @@
 void hoverOver() {
  //Dark Mode
   if (mouseX>darkX && mouseX<darkX+darkWidth && mouseY>darkY && mouseY<darkY+darkHeight){
-    fill(LMhover2);
+    fill(LMhoverD);
     rect(darkX,darkY,darkWidth,darkHeight);
     textDraw(dark, Font, height, 255, CENTER, CENTER, darkX, darkY, darkWidth, darkHeight);
 } else {
   fill(LMbuttons);
   rect(darkX, darkY, darkWidth, darkHeight);
-  textDraw(dark, Font, height, LMtext, CENTER, CENTER, darkX, darkY, darkWidth, darkHeight);
+  textDraw(dark, Font, height, LMtextD, CENTER, CENTER, darkX, darkY, darkWidth, darkHeight);
 }
 //Beginner
   if (mouseX>mode1X && mouseX<mode1X+mode1Width && mouseY>mode1Y && mouseY<mode1Y+mode1Height){

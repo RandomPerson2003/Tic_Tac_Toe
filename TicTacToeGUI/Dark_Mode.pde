@@ -2,7 +2,9 @@ color LMback = #F3DD70;
 color LMbuttons = #E6E3E3;
 color LMtext = 0;
 color LMhover = 255;
-color LMhover2 = 25;
+color LMhoverD = 25;
+color LMtextD = 0;
+String lighting = "  Dark Mode ";
 boolean darkMode = false;
 
 void darkModeClicked() {
@@ -13,7 +15,13 @@ void darkModeClicked() {
     }else darkMode = false;
   }
   if (darkMode == true) {
-    //color LMback = #66645B;
+     lighting = "  Light Mode  ";
+     LMback = #565E6C;
+     LMbuttons = #66645B;
+     LMtextD = 25;
+     LMhoverD = 230; 
+     LMtext = #E3E5EA;
+     LMhover = #8C897C;
 
   }
 }

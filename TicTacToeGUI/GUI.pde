@@ -22,6 +22,8 @@ float board9X, board9Y, board9Width,board9Height;
 void GUI_Setup() {
   background(LMback);
 
+
+
   board1X = width*1/5;
   board1Y = height*1/5;
   board1Width = width * 1/5;
@@ -66,7 +68,7 @@ void GUI_Setup() {
   board9Y = height*3/5;
   board9Width = width * 1/5;
   board9Height = height * 1/5;
-  
+
   
   restartX = width*1/3;
   restartY = height*0;

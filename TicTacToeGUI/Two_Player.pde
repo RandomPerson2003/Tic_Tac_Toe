@@ -1,3 +1,4 @@
+/*
 Boolean twoPlayer2 = false, twoPlayerAI = false;
 
 void twoPlayerBoolean() {
@@ -29,8 +30,8 @@ void twoPlayerGame() {
 
 void play2player() {
   println("2 player");
-  drawXO();
- 
-  
-  
+
 }
+ */
+  
+ 

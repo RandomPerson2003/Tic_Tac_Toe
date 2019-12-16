@@ -10,7 +10,7 @@ void textSetup() {
   mode2 = "Intermediate";
   mode3 = "Impossible";
   restart = " Restart Game ";
-  dark = "  Dark Mode  ";
+  dark = lighting;
   playerMode2 = "2 Player";
   playerModeAI = "Solo Play";
   X = "X";

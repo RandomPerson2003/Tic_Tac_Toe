@@ -1,12 +1,1 @@
 
-void drawXO() {
-  
-  
-  
-}
-
-void clickXO() {
-  
-  
-  
-}
