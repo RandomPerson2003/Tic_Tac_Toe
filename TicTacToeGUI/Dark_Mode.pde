@@ -7,12 +7,12 @@ color LMtextD = 0;
 String lighting = "  Dark Mode ";
 boolean darkMode = false;
 
-void darkModeClicked() {
+void darkModeClicked(){
   if (mouseX >= darkX  && mouseX <= darkWidth && mouseY >= darkY && mouseY <= darkHeight) {
     if (darkMode == false) {
       darkMode = true;
-      println("Success!");
-    }else darkMode = false;
+    }else if (darkMode == true);
+    darkMode = false;
   }
   if (darkMode == true) {
      lighting = "  Light Mode  ";
@@ -23,5 +23,14 @@ void darkModeClicked() {
      LMtext = #E3E5EA;
      LMhover = #8C897C;
 
-  }
-}
+  } 
+   else if (darkMode == false){
+   lighting = "  Dark Mode  ";
+   LMback = #F3DD70;
+   LMbuttons = #E6E3E3;
+   LMtext = 0;
+   LMhover = 255;
+   LMhoverD = 25;
+   LMtextD = 0;
+   }
+}  

@@ -16,8 +16,9 @@ textDraw(dark, Font, height, LMtext, CENTER, CENTER, darkX, darkY, darkWidth, da
 }
 
 void draw() {
-quitButtonDraw();
 hoverOver();
+
+darkModeClicked();
 /*
 if ( twoPlayer2 == true){
   play2player();
@@ -31,8 +32,9 @@ void keyPressed() {}
 
 void mousePressed() {
 quitButtonMouseClicked();
+//clickXO();
 //twoPlayerBoolean();
-darkModeClicked();
+
 }
 
 /*To Do
