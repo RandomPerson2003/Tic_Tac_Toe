@@ -16,9 +16,9 @@ textDraw(dark, Font, height, LMtext, CENTER, CENTER, darkX, darkY, darkWidth, da
 }
 
 void draw() {
+quitButtonDraw();
 hoverOver();
 
-darkModeClicked();
 /*
 if ( twoPlayer2 == true){
   play2player();
@@ -32,13 +32,12 @@ void keyPressed() {}
 
 void mousePressed() {
 quitButtonMouseClicked();
-//clickXO();
+darkModeClicked();
 //twoPlayerBoolean();
 
 }
 
 /*To Do
-
  - 3 by 3 playing baord
  - Score board
  - Reset button
@@ -46,9 +45,7 @@ quitButtonMouseClicked();
  - Dark mode
  - Options
 _________________
-
 Procedures
-
  - When click on board, draw X or O | Alternating
  - recognise when a player wins - stops game - updates scoreboard
  - Quit and save option

@@ -1,4 +1,3 @@
-
 PFont quitButtonFont;
 color black = 0;
 color blackQuitButton = #E6E3E3;
